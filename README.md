@@ -1,13 +1,14 @@
 # MyCamer
+
 video 录制与压缩
 
-前人造的轮子，自己集成整合了一下，改写兼容了Androidx
+前人造的轮子，自己集成整合了一下，改写兼容了 Androidx
 
 库主要来源：
 
-* [CJT2325](https://github.com/CJT2325/CameraView)
-* [Tourenathan-G5organisation](https://github.com/Tourenathan-G5organisation/SiliCompressor)
-* [MasayukiSuda](https://github.com/MasayukiSuda/Mp4Composer-android)
+- [CJT2325](https://github.com/CJT2325/CameraView)
+- [Tourenathan-G5organisation](https://github.com/Tourenathan-G5organisation/SiliCompressor)
+- [MasayukiSuda](https://github.com/MasayukiSuda/Mp4Composer-android)
 
 # 主要用法
 
@@ -25,7 +26,7 @@ video 录制与压缩
         android:layout_height="match_parent"/>
 ```
 
-## java代码
+## java 代码
 
 ```java
  myLayoutBinding.jcameraview.setSaveVideoPath(
@@ -112,7 +113,6 @@ video 录制与压缩
 
 可绑定的生命周期
 
-
 ```java
  @Override
     protected void onResume() {
@@ -154,9 +154,3 @@ video 录制与压缩
                             .compressVideo(srcPath, destDirPath, outWidth, outHeight, 950000);
 
 ```
-
-
-
-
-
-
